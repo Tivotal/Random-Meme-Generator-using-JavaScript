@@ -1,0 +1,67 @@
+/* Created by Tivotal */
+
+/* Google Fonts(Poppins) */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #222;
+}
+
+.wrapper {
+  width: 80%;
+  max-width: 600px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.wrapper .title {
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  background: #4070f4;
+  color: #fff;
+  padding: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.wrapper .content {
+  padding: 10px 15px;
+}
+
+.wrapper .meme {
+  height: 350px;
+  width: 100%;
+}
+
+.wrapper .meme-title {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  background: #ccc;
+}
+
+.wrapper .btn {
+  background: #222;
+  color: #fff;
+  width: 100%;
+  margin-top: 15px;
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
